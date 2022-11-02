@@ -132,7 +132,7 @@ section img {
 }
 
 section img#moon {
-    mix-blend-mode: screen;
+    mix-blend-mode: lighten;
 }
 
 section img#mountains_front {
