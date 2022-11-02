@@ -131,8 +131,13 @@ section img {
     pointer-events: none;
 }
 
-section img#moon {
-    mix-blend-mode: lighten;
+#stars {
+    z-index: -2;
+}
+
+section img#moon, #moon {
+    mix-blend-mode: screen;
+    z-index: -1;
 }
 
 section img#mountains_front {
